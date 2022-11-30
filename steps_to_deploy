@@ -1,0 +1,16 @@
+// 1. compile sol file
+// truffle compile
+
+// 2. create the deployment script
+// in ascending order e.g 2_smart_contract_filename_deploy.js
+
+// const Demo_Contract = artifacts.require("Demo");
+
+// module.exports = function(deployer) {
+//   deployer.deploy(Demo_Contract);
+// };
+
+// 3. Deploy the smart contract
+// truffle migrate --network goerli
+
+// truffle run verify AgropAlphaV1 --network goerli
